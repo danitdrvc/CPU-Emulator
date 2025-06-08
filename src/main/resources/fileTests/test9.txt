@@ -1,0 +1,6 @@
+MOV QWORD R0, 15
+MOV QWORD R1, 10
+JMP label
+ADD QWORD R0, R1
+label:
+HALT

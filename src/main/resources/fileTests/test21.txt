@@ -1,0 +1,6 @@
+MOV BYTE R2, R1
+CMP BYTE R1, R2
+JE BYTE label
+MOV BYTE R2, R0
+label:
+HALT
